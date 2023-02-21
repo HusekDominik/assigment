@@ -1,0 +1,15 @@
+.button-style {
+    color: #fff;
+    border: 0;
+    border-radius: 0.3rem;
+    padding: 0.35rem 0.75rem;
+}
+
+.button-style:hover:enabled, .button-style:active:enabled {
+    filter: brightness(85%);
+}
+
+
+button[disabled] {
+    opacity: 0.5 !important;
+}
